@@ -1,0 +1,38 @@
+dataProcessing 数据加载与预处理
+    TextSimilarity
+        Keywords.py  文案提取关键字
+        Similarity.py   相似度计算
+        TextSimilarity.py
+    videoTags 视频 To 标签
+
+evaluate 模型评测模块
+    evaluate.py
+
+experience 新品体验模块
+
+feed 冷启动逻辑
+    feed.py
+
+media 视频feed流模块召回层
+    ContentBased
+        ContentBased.py
+        fit_transform.py
+    ItemCollaborationFilter
+        fit_transform.py
+        ItemCollaborationFilter.py
+    LatentFactorModel
+        fit_transform.py
+        LatentFactorModel.py
+    UserCollaborationFilter
+        fit_transform.py
+        UserCollaborationFilter.py
+    manage.py
+Ranking 多路召回融合排序层
+    顺序/平均/加权平均/动态加权（根据实时CTR）/机器学习权重
+
+update 缓存
+    update.py
+
+config.py  配置文件
+main.py  主调入口
+project.txt  工程说明文档
